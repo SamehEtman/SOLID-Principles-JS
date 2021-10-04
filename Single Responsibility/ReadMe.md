@@ -1,5 +1,5 @@
 # Definition :
-A class should have only one reason to change.
+Every module, class or function should have only one reason to change.
 
 # Problem statement :
 Say we need to make class **Journal** and we need to have the ability to add or remove journals to it , then we need a way or a method to write and read the content of this journal to the hard disk.
