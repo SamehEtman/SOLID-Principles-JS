@@ -151,8 +151,8 @@ class AndFilter {
 ```
 can you see how dynamic this is , now if we added as much filtering criteria as we want it's ok this filter will handle it no matter what.
 
-Note : 
-In other programming languages like C++ in a situation like this we use abstract classes and the filters will inheret from it  and the structure will look something like the diagram below but unfortunately JS doesn't have abstract classes 
+*Note : 
+In other programming languages like C++ in a situation like this we use abstract classes and the filters will inheret from it  and the structure will look something like the diagram below but unfortunately JS doesn't have abstract classes*
 
 
 ![Untitled Diagram.drawio (1).svg](Diagrams/structure_with_interfaces.svg)

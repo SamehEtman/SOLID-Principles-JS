@@ -34,23 +34,10 @@ class Journal {
 }
 Journal.count = 0;
 
-class WritingManager {
-  preprocess(j) {
-    //
-  }
-
-  saveToFile(journal, filename) {
-    fs.writeFileSync(filename, journal.toString());
-  }
-}
 
 let j = new Journal();
 j.addEntry('I cried today.');
 j.addEntry('I ate a bug.');
 console.log(j.toString());
 
-let p = new WritingManager();
-let filename = './journal.txt';
-p.saveToFile(j, filename);
 
-// separation of concerns
