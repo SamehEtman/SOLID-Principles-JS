@@ -2,7 +2,7 @@
 Software entities should be open for extension, but closed for modification.
 
 # Problem statement :
-Say we need to make class **Product** which have some proprities of the poduct like its name , color and size. 
+Say we need to make class **Product** which have some proprities of the product like its name , color and size. 
 We also need to make a **filter** to filter these products by size , color , name or combination of the three.
 
 # Abstraction : 
