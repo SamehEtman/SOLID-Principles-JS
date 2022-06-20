@@ -110,4 +110,4 @@ class WritingManager {
 }
 ```
 This class takes a journal and and the name of the file and to write to the disk 
-I don't know what it seems to you but to me it seems like this class can be more than just writing only the Journal file, It can be modified to write to multible types of classes which saves us the time of coding a write method to every class.
+I don't know what it seems to you but to me it seems like this class can be more than just writing only the Journal file, It can be modified to write to multiple types of classes which saves us the time of coding a write method to every class.
